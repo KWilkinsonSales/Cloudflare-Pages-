@@ -38,10 +38,12 @@ npm run preview
 
 | Setting | Value |
 |---------|-------|
+| **Project name** | cloudflare-pages-app |
+| **Production branch** | main |
 | **Framework preset** | Vite |
-| **Build command** | `npm run build` |
-| **Build output directory** | `dist` |
-| **Root directory** | `/` |
+| **Build command** | npm run build |
+| **Build output directory** | dist |
+| **Root directory** | / |
 | **Environment variables** | None required |
 
 ### Build Environment
@@ -57,7 +59,7 @@ Follow these steps to deploy on Cloudflare Pages:
 - [ ] **Connect Repository**: Log in to [dash.cloudflare.com](https://dash.cloudflare.com)
 - [ ] **Create Project**: Navigate to Pages → Create project → Connect to Git
 - [ ] **Select Repository**: Choose `KWilkinsonSales/Cloudflare-Pages-`
-- [ ] **Select Branch**: Select `main` (or your preferred branch)
+- [ ] **Select Branch**: Select `main`
 - [ ] **Enter Build Settings**:
   - Build command: `npm run build`
   - Build output directory: `dist`
